@@ -50,7 +50,7 @@ while True:
 		screen.blit(duck_surface,duck_rect)
 
 	if len(duck_list) <= 0:
-		screen.blit(text_surface,(text_rect)
+		screen.blit(text_surface,text_rect)
 
 	land_position_y -= land_speed
 
